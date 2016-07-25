@@ -1,0 +1,75 @@
+.image {
+  width: 100%;
+}
+
+.container {
+  float: left;
+  width: 100%;
+}
+
+p {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: Georgia;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: Georgia;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+.card {
+  position: relative;
+  float: left;
+  width: 32%;
+  min-width: 288px;
+  text-align: center;
+  margin-right: 6px;
+  margin-bottom: 6px;
+}
+
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.card__front,
+.card__back { 
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  
+}
+
+.card__front {
+  /*
+  background-color: lavender;*/
+  overflow: hidden;
+}
+
+.card__back {
+  background-color: lavender;
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  overflow-y: scroll;
+  z-index:-1;
+}
+
+.card.effect__hover:hover .card__front {
+  -webkit-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__back {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+  z-index:0;
+}
