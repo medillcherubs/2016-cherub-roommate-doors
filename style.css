@@ -5,6 +5,8 @@
 .container {
   float: left;
   width: 100%;
+  padding-left: 30px
+  padding-right: 30px;
 }
 
 p {
@@ -18,7 +20,7 @@ p {
 h1 {
   font-family: Georgia;
   font-size: 19px;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 0px;
 }
 
@@ -30,11 +32,14 @@ h1 {
   text-align: center;
   margin-right: 6px;
   margin-bottom: 6px;
+  padding-right: 50px;
+  padding-top: 50px;
+
 }
 
 .card__back {
   position: absolute;
-  top: 0;
+  top: 50px;
   left: 0;
   width: 100%;
   bottom: 0;
@@ -46,7 +51,6 @@ h1 {
   backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.3s;
   transition: transform 0.3s;
-  
 }
 
 .card__front {
