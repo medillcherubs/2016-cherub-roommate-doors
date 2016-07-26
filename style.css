@@ -2,12 +2,6 @@
   width: 100%;
 }
 
-.container {
-  float: left;
-  width: 100%;
-  padding-left: 30px
-  padding-right: 30px;
-}
 
 body {
   float: left;
@@ -32,6 +26,7 @@ h1 {
   position: relative;
   float: left;
   width: 32%;
+ 
   text-align: center;
   margin-right: 6px;
   margin-bottom: 6px;
