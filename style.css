@@ -2,7 +2,12 @@
   width: 100%;
 }
 
-
+.container {
+  float: left;
+  width: 100%;
+  padding-left: 30px
+  padding-right: 30px;
+}
 body {
   float: left;
 }
