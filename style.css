@@ -9,6 +9,10 @@
   padding-right: 30px;
 }
 
+body {
+  float: left;
+}
+
 p {
   padding-right: 15px;
   padding-left: 15px;
