@@ -9,7 +9,7 @@ Paste this into your Wordpress post:
 
 ```
 <div id="example"></div>
-<script type="text/javascript" src="//www.cherubs2015.org/wp-content/themes/cherubs-2015/js/vendor/pym.min.js"></script> <script> var pymParent = new pym.Parent("example", "//medillcherubs.github.io/2016-cherub-roommate-doors/index.html", {}); </script>
+<script type="text/javascript" src="http://cherubs.medill.northwestern.edu/2016/wp-content/themes/cherubs2016/js/vendor/pym.min.js"></script> <script> var pymParent = new pym.Parent("example", "//medillcherubs.github.io/2016-cherub-roommate-doors/index.html", {}); </script>
 
 <!-- Edit: https://github.com/medillcherubs/2016-cherub-roommate-doors/edit/gh-pages/index.html -->
 ```
