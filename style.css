@@ -26,6 +26,13 @@ h1 {
   margin-bottom: 0px;
   padding-left: 8px
 }
+h2 {
+  font-family: Georgia;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px
+}
 
 .card {
   position: relative;
